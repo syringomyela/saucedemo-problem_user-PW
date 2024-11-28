@@ -1,2 +1,2 @@
-# saucedemo-problem_user-PW
+# saucedemo-problem_user-JS-Playwright
 Playwright tests for saucedemo.com (JS)

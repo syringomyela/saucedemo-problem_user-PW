@@ -15,7 +15,7 @@ class loginPage extends BasePage {
         }
     }
     async fillCredentialsAndSubmit() {
-        await this.elementsOnPage().username.fill(loginCreds.name[0]);
+        await this.elementsOnPage().username.fill(loginCreds.name[2]);
         await this.elementsOnPage().password.fill(loginCreds.password);
         await this.elementsOnPage().loginButton.click();
     }

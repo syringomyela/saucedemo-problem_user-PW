@@ -14,7 +14,7 @@ class BasePage{
 }
 
   getByDataTest(selector) {
-  return this.page.getByTestId(selector)
+  return this.page.locator(`[data-test="${selector}"]`)
 }
 
   getElementByText (selector) {
